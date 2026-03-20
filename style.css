@@ -1,21 +1,124 @@
 
-h1{
+body{
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+header{
+    background: linear-gradient(135deg, #1db954, #0f7a36);
+    color: white;
     text-align: center;
-    padding: 12px;
-    background-color: darkgreen;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+header a:hover{
+    text-decoration: underline;
+}
+h1{
+    margin-bottom: 10px;
+    text-align: center;
+    color: #3a974e;
+}
+h2{
+    text-align: center;
+    margin-bottom: 15px;
+    color: #0f7a36;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+ul a{
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: 0.3s;
+}
+ul a:hover{
+    color: #1db954;
+}
+article{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+}
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+}
+section{
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 700px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+input[type="text"],
+input[type="number"]{
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+input[type="submit"]{
+    background-color: #1db954;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+input[type="submit"]:hover{
+    background-color: #14833b;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+caption{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+th, td{
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+th{
+    background-color: #1db954;
+    color: white;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
 }
 footer{
     text-align: center;
-}
-
-section{
-    text-align: center;
-    
-   
-}
-table{
-    text-align: center;
-}
-img{
-    text-align: center;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #0f7a36;
+    color: white;
+    border-radius: 10px;
 }
